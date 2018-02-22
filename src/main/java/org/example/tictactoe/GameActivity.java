@@ -8,6 +8,10 @@ import android.content.DialogInterface;
 import android.os.Bundle;
 import android.util.Log;
 
+/**
+ * Created by Laroussi on 12/01/2018.
+ */
+
 public class GameActivity extends Activity {
    public static final String KEY_RESTORE = "key_restore";
    public static final String PREF_RESTORE = "pref_restore";
