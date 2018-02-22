@@ -12,6 +12,10 @@ import android.widget.ImageButton;
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ * Created by Laroussi on 12/01/2018.
+ */
+
 public class GameFragment extends Fragment {
    // Data structures go here...
    static private int mLargeIds[] = {R.id.large1, R.id.large2, R.id.large3,
