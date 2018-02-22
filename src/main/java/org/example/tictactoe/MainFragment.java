@@ -10,6 +10,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+/**
+ * Created by Laroussi on 12/01/2018.
+ */
 
 public class MainFragment extends Fragment {
 
@@ -20,7 +23,7 @@ public class MainFragment extends Fragment {
                             Bundle savedInstanceState) {
       View rootView =
             inflater.inflate(R.layout.fragment_main, container, false);
-      // Handle buttons here...
+      // Les boutons ici ...
       View newButton = rootView.findViewById(R.id.new_button);
       View continueButton = rootView.findViewById(R.id.continue_button);
       View aboutButton = rootView.findViewById(R.id.about_button);
@@ -49,7 +52,7 @@ public class MainFragment extends Fragment {
                   new DialogInterface.OnClickListener() {
                      @Override
                      public void onClick(DialogInterface dialogInterface, int i) {
-                        // nothing
+                        // rien
                      }
                   });
             mDialog = builder.show();
@@ -62,7 +65,7 @@ public class MainFragment extends Fragment {
    public void onPause() {
       super.onPause();
 
-      // Get rid of the about dialog if it's still up
+      // se débarasser de la boîte de dialogue
       if (mDialog != null)
          mDialog.dismiss();
    }
