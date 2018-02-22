@@ -7,6 +7,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+/**
+ * Created by Laroussi on 12/01/2018.
+ */
+
 public class ControlFragment extends Fragment {
 
    @Override
