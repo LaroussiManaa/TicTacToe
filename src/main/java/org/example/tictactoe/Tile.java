@@ -5,15 +5,19 @@ import android.graphics.drawable.Drawable;
 import android.view.View;
 import android.widget.ImageButton;
 
+/**
+ * Created by Laroussi on 15/01/2018.
+ */
+
 public class Tile {
 
    public enum Owner {
-      X, O /* letter O */, NEITHER, BOTH
+      X, O , NEITHER, BOTH
    }
 
-   // These levels are defined in the drawable definitions
+   
    private static final int LEVEL_X = 0;
-   private static final int LEVEL_O = 1; // letter O
+   private static final int LEVEL_O = 1; 
    private static final int LEVEL_BLANK = 2;
    private static final int LEVEL_AVAILABLE = 3;
    private static final int LEVEL_TIE = 3;
@@ -69,7 +73,7 @@ public class Tile {
          case X:
             level = LEVEL_X;
             break;
-         case O: // letter O
+         case O: //lettre O
             level = LEVEL_O;
             break;
          case BOTH:
